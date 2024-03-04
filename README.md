@@ -28,8 +28,7 @@ git add README.md && git commit -m "New DEMO README file" && git push
 <br>
 
 ```mermaid
-
-flowchart TD
+graph TD;
 
 A [Need to git it into GitHub] --> B {Is it <b>untracked<b>?};
 A [Need to git it into GitHub] --> C {Is it <b>modified<b>?};
