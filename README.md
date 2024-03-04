@@ -27,11 +27,11 @@ git add README.md && git commit -m "New DEMO README file" && git push
 #### My scheme plan:
 <br>
 
-```graph TD;
-
+```flowchart TD;
+markdown
 A [Need to git it into GitHub] --> B {Is it <b>untracked<b>?};
 A [Need to git it into GitHub] --> C {Is it <b>modified<b>?};
 B -- YES?! So, <i>git add<i> --> D [<b>Staged + tracked<b>];
 C -- YES?! So, <i>git add<i> --> D [<b>Staged + tracked<b>];
-
+markdown
 ```
