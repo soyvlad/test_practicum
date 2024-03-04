@@ -27,7 +27,9 @@ git add README.md && git commit -m "New DEMO README file" && git push
 #### My scheme plan:
 <br>
 
-```flowchart TD;
+```mermaid
+
+flowchart TB;
 
 A [Need to git it into GitHub] --> B {Is it untracked?};
 A [Need to git it into GitHub] --> C {Is it modified?};
