@@ -34,6 +34,5 @@ A [Need to git it into GitHub] --> B {Is it <b>untracked<b>?};
 A [Need to git it into GitHub] --> C {Is it <b>modified<b>?};
 B -- YES?! So, <i>git add<i> --> D [<b>Staged + tracked<b>];
 C -- YES?! So, <i>git add<i> --> D [<b>Staged + tracked<b>];
-D -- <i>git commit<i> --> E [Finally it's <tracked>];
 
 ```
